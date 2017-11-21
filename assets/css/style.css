@@ -1,0 +1,279 @@
+html {
+    height: 100%;
+}
+body {
+    background-image: url(../images/fresh_snow.png);
+    height: 100%;
+}
+.wrapper {
+    position: relative;
+    min-height: 100%;
+}
+header {
+    background: #ffffff;
+    height: 60px;
+    position:fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-bottom: 2px solid #cccccc;
+    overflow: visible;
+    z-index: 100;
+}
+.headerContent {
+    width: 960px;
+    margin: 0 auto;
+}
+#name {
+    background: #4aaaa4;
+    display: inline-block;
+    height: 60px;
+    margin: 0 auto;
+    vertical-align: middle;
+    color: white;
+
+}
+header h1 {
+   padding: 10px 20px;
+   font-family: 'Georgia', Times, Times New Roman, serif;
+   font-size: 33px;
+   font-weight: 800;
+   margin-top: 5px;
+}
+header nav {
+    position: relative;
+    display: inline-block;
+    font-family:'Georgia', Times, Times New Roman, serif;
+    padding-left: 591px;
+    top: -37px;
+}
+header nav li {
+    float: left;
+    margin-left: 30px; 
+    color:#cccccc;
+    border-left: solid 1px #cccccc;
+}
+#headerli {
+    border: none;
+}
+header nav li a {
+    text-decoration: none;
+    color: #cccccc;
+    font-size: 20px;
+    padding-left: 20px;
+}
+header nav li a:hover {
+    color: black;
+    font-size: 1.3em;
+    transition: 0.5s;
+}
+.content {
+    width: 960px;
+    min-height: 1000px;
+    margin: 0 auto -80px auto;
+}
+.main {
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    margin-top: 100px;
+    box-sizing: border-box;
+    width: 650px;
+    float: left;
+}
+.main h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 32px;
+    font-weight: 800;
+    color: #4aaaa5;
+    height: 29px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #dddddd;
+    margin-left:20px;
+    margin-right:20px;
+    margin-bottom: 10px;
+}
+.main img {
+    float: left;
+    margin-top: 17px;        
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 250px;    
+    border: 1px solid #dddddd;
+}
+.main p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    padding: 15px;
+    font-size: 20px;
+    line-height: 33px;
+}
+.sidebar {
+    margin-top: 100px;
+    margin-left: 30px;
+    background: #ffffff;
+    box-sizing: border-box;
+    border: 1px solid #dddddd;
+    width: 270px;
+    height: 200px;
+    display: inline-block;   
+}
+.sidebar h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 25px;
+    font-weight: 800;
+    color: #4aaaa5;
+    height: 29px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #dddddd;
+    margin-left:20px;
+    margin-right:20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.connectLinks {
+    text-align: center;
+}
+.sidebar img {
+    margin-left: 18px;
+}
+
+footer {
+    width: 100%;
+    height: 80px;
+    background: #666666;
+    clear: both;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    border-top: 7px solid #4aaaa4; 
+    position: absolute;
+}
+footer div {
+    padding-top: 31px;
+}
+footer p {
+    text-align: center;
+    color: #cccccc;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+/* STYLING FOR CONTACT PAGE BELOW */
+form {
+    height: 460px;
+    padding-left: 21px;
+}
+form p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    font-size: 21px;
+    padding-left: 0px;
+    padding-bottom: 3px;
+}
+input {
+    margin-top: 6px;
+    width: 595px;
+    height: 31px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+textarea {
+    margin-top: 6px;
+    width: 600px;
+    height: 200px;
+    overflow: hidden;
+
+}
+button {
+    background-color: #4aaaa4; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 26px;
+    margin-bottom: 50px;
+    position: relative;
+    top: 36px;
+}
+button:hover {
+    background: black;
+    transition: 0.4s;
+}
+/* STYLING FOR Portfollio Page */
+.app {
+    width: 50%;
+    float: left;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.app  img {
+    width: 80%;
+    height: 200px;
+    margin: 0;
+    margin-left: 32px;
+}
+.banner {
+    position: relative;
+    top: 130px;
+    left: 33px;
+    background: #4aaaa4;
+    height: 33px;
+    width: 260px;
+}
+.main .bannerText {
+    color: #ffffff;
+    position: absolute;
+    font-size: 22px;
+    font-weight: 500;
+    width: 260px;
+    text-align: center;
+    padding: 0;
+    margin-top: 1px;
+}
+/* START OF MEDIA QUERIES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+@media screen and (max-width:640px) {
+    .headerContent {
+        width: 640px;
+    }
+    #name {
+        display: block;
+        text-align: center;
+    }
+    header nav {
+        padding: 0px;
+        position: static;
+        height: 60px;
+        width: 100%;
+        background: white;
+    }
+    header nav li {
+        width: 28%;
+        border: none;
+        margin-top: 16px;
+    }
+    header nav li a {
+        font-size: 28px;
+    }
+    .content {
+        width: 640px;
+        min-height: 1300px;
+    }
+    .main {
+        width: 100%;
+        display: block;
+        float: left;
+        margin-top: 200px;
+    }
+    .sidebar {
+        width: 100%;
+        margin: 0;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    footer {
+        position: static;
+        width: 640px;
+    }
+}
