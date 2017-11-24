@@ -275,7 +275,7 @@ button:hover {
         margin-left: 75px;
     }
     footer {
-        position: inherit;
+        position: static;
     }
 }
 
@@ -310,9 +310,9 @@ button:hover {
         padding-left: 18%;
     }
     footer {
-        position: static;
         width: 100%;
         margin-top: 10%;
+        position: inherit;
     }
     /* Contact Page */
     input {
@@ -343,6 +343,9 @@ button:hover {
 
 @media screen and (max-width:640px) {
     /* Index and Main Fixes */
+    header {
+        position: static;
+    }
     .headerContent {
         width: 100%;
     }
@@ -357,6 +360,7 @@ button:hover {
         width: 100%;
         background: white;
         margin-top: 0;
+        text-align: center;
     }
     header nav li {
         width: 28%;
@@ -389,6 +393,7 @@ button:hover {
         position: static;
         width: 100%;
         margin-top: 10%;
+        min-width: 640px;
     }
     /*Contact Page */
     input {
